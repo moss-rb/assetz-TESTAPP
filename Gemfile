@@ -5,7 +5,7 @@ gem 'sqlite3'
 gem 'jbuilder', '~> 2.0'
 gem 'puma'
 
-### ASSETS
+### OLD ASSETS STUFF
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
 # Use CoffeeScript for .coffee assets and views
@@ -16,6 +16,9 @@ gem 'coffee-rails', '~> 4.1.0'
 gem 'jquery-rails'
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
 gem 'turbolinks'
+
+## NEW ASSETS STUFF
+gem 'assetz', path: '../assetz' #github: 'moss-rb/assetz', branch: 'install-generator'
 
 group :development, :test do
   gem 'byebug'
